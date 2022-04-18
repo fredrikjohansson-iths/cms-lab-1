@@ -1,5 +1,5 @@
 <?php get_header();?>
-
+<div class="main-wrapper">
 <article class="">
 
     <?php 

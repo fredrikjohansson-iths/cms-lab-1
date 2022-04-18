@@ -130,6 +130,7 @@ h6 {
 }
 
 .header .navbar {
+  list-style-type: none;
   padding: 2rem 1rem;
 }
 

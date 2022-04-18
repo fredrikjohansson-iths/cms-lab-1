@@ -9,18 +9,9 @@
                         echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
                         } ?>
             </span>
-            <span class="comment">
-                <a href="#comments"><i class='fa fa-comment'></i>
-                    <?php
-                echo get_comments_number();?></a>
-                </span>
         </div>
     </header>
     <?php
-    the_content();
-    ?>
-
-    <?php 
-    comments_template();
+     the_excerpt(); 
     ?>
 </div>
